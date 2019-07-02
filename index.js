@@ -5,7 +5,7 @@ server.use(express.json());
 
 //Query params = ?teste=1
 //Route params = /teste/1
-//Request body = {'name': 'teste', 'email':'email@email'}
+//Request body = {'name': teste', 'email':'email@email'}
 //CRUD - Create, Read, Update, Delete
 
 const users = ["Cláudio", "Diego", "Victor"];
